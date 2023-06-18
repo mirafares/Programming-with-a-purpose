@@ -19,3 +19,16 @@ red = 255×white×(1−cyan)
 green = 255×white×(1−magenta)
 blue = 255×white×(1−yellow)
 Your program must take four double command-line arguments cyan, magenta, yellow, and black; compute the corresponding RGB values, each rounded to the nearest integer; and print the RGB values.
+
+Loops:
+1. Generalized harmonic numbers. Write a program GeneralizedHarmonic.java that takes two integer command-line arguments n and r and uses a for loop to compute the nth generalized harmonic number of order r, which is defined by the following formula:
+H(n,r)=1/1^r+1/2^r+⋯+1/n^r.
+
+2. Band matrices. Write a program BandMatrix.java that takes two integer command-line arguments n and width and prints an n-by-n pattern like the ones below, with a zero (0) for each element whose distance from the main diagonal is strictly more than width, and an asterisk (*) for each entry that is not, and two spaces between each 0 or *.
+
+3. Random walk. A Java programmer begins walking aimlessly. At each time step, she takes one step in a random direction (either north, east, south, or west), each with probability 25%. She stops once she is at Manhattan distance r from the starting point. How many steps will the random walker take? This process is known as a two-dimensional random walk.
+
+Write a program RandomWalker.java that takes an integer command-line argument r and simulates the motion of a random walk until the random walker is at Manhattan distance r from the starting point. Print the coordinates at each step of the walk (including the starting and ending points), treating the starting point as (0, 0). Also, print the total number of steps taken.
+
+4. Random walkers. Write a program RandomWalkers.java that takes two integer command-line arguments r and trials. In each of trials independent experiments, simulate a random walk until the random walker is at Manhattan distance r from the starting point. Print the average number of steps.
+
